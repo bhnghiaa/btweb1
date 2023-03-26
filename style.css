@@ -1,0 +1,753 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 45px;
+  background-color: #1d262d;
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+}
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.header__navbar-list {
+  list-style: none;
+  padding-left: 0;
+}
+.header__navbar-item {
+  margin: 0 22px;
+}
+.header__navbar-item,
+.header__navbar-item-link {
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  margin: 11px;
+  display: inline-block;
+  font-size: 1rem;
+  color: #a5b7c6;
+  text-decoration: none;
+  font-weight: bold;
+}
+.header__navbar-item:hover {
+  color: white;
+  cursor: pointer;
+}
+.body {
+  margin: 0;
+}
+
+.grid {
+  width: 1495px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header__navbar-item_P {
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  color: #fba512;
+}
+.header__navbar-item_P:hover {
+  color: #d09734;
+}
+.header__navbar-item_S {
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  border-style: solid;
+  border-color: #4a6375;
+  padding: 1px 15px;
+  border-width: 1px;
+  border-radius: 4px;
+}
+.header__navbar-item_S:hover {
+  border-color: #94979a;
+}
+
+.logo {
+  border-width: 3px;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.h:hover {
+  cursor: pointer;
+  color: rgb(56, 56, 254);
+}
+
+.h {
+  color: blue;
+  font-size: 2rem;
+  margin-left: 5px;
+  margin-top: 3px;
+  font-weight: 900;
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+}
+.container {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 75px;
+  height: 580px;
+}
+.img {
+  width: 75%;
+  height: 100vh;
+  background-image: url(https://img.freepik.com/free-psd/social-media-marketing-agency-web-design-template_23-2149073401.jpg?w=2000&t=st=1679749613~exp=1679750213~hmac=34b6122aa73f1cac368f34db2ae89e506dc6d000f2106fff50b91df6ba092a60);
+  background-repeat: no-repeat;
+  background-size: 1000px 500px;
+  box-sizing: content-box;
+}
+.download {
+  width: 300px;
+  height: 57px;
+  margin: 15% 10px 1px 1080px;
+  background-color: #2bc48a;
+  border-style: solid;
+  border-color: white;
+  border-radius: 16px;
+  position: absolute;
+}
+.textDownload {
+  list-style: none;
+  text-align: center;
+  padding-top: 5%;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+}
+.textDownload:hover {
+  cursor: pointer;
+}
+.download:hover {
+  background-color: #158258;
+}
+.search-container {
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+  border-color: #cfd9e0;
+  width: 90%;
+  height: 1rem;
+  background-color: #e2e8ec;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 18px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+  border-color: #cfd9e0;
+  background-color: #e2e8ec;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.details__license {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500px;
+  font-style: bold;
+}
+.detail__license--content {
+  padding-top: 8px;
+}
+.inline,
+.details_link {
+  color: #374957;
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  font-size: 16px;
+  line-height: 1.66;
+}
+.details_link {
+  margin-left: 5px;
+  color: rgb(143, 137, 137);
+  text-decoration: none;
+}
+.details_link:hover {
+  color: #a5b7c6;
+}
+.detail__author {
+  margin-top: 520px;
+  display: flex;
+}
+.detail__author:hover {
+  cursor: pointer;
+}
+.author_name {
+  color: rgb(98, 62, 203);
+  font-size: rem;
+  margin-left: 10px;
+  margin-top: 7px;
+  font-weight: bold;
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.follow-button {
+  width: 90px;
+  height: 30px;
+  color: #374957;
+  font-weight: 700;
+  margin-left: 20px;
+  border-color: whitesmoke;
+  background-color: #eff3f6;
+  border-radius: 9px;
+  text-align: center;
+}
+.follow-button:hover,
+.collection_button:hover,
+.like_button:hover,
+.share_button:hover {
+  cursor: pointer;
+  background-color: #d5d6d7;
+}
+.detail_subactions {
+  margin-left: 50px;
+}
+.collection_button {
+  width: 150px;
+  height: 30px;
+  color: #374957;
+  font-weight: 600;
+  border-color: white;
+  background-color: #eff3f6;
+  border-radius: 9px;
+  text-align: center;
+  margin-left: 350px;
+}
+.like_button {
+  width: 60px;
+  height: 26px;
+  color: #374957;
+  font-weight: 600;
+  border-color: white;
+  background-color: #eff3f6;
+  border-radius: 9px;
+  text-align: center;
+  margin-left: 10px;
+}
+.share_button {
+  width: 80px;
+  height: 26px;
+  color: #374957;
+  font-weight: 600;
+  border-color: white;
+  background-color: #eff3f6;
+  border-radius: 9px;
+  text-align: center;
+  margin-left: 10px;
+}
+.detail__title_overflow-lines {
+  width: 500px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.h2 {
+  -webkit-text-size-adjust: 100%;
+  color: #374957;
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  line-height: 1.66;
+  -webkit-font-smoothing: antialiased;
+  visibility: visible;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  width: 100%;
+  -webkit-line-clamp: 1;
+  grid-area: title;
+  order: 2;
+  padding: 0;
+}
+.detail__keywords {
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.tag {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4a6375;
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+}
+.detail__data {
+  margin-top: 20px;
+  margin-left: 75px;
+  width: 1000px;
+  height: 35px;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.data1 {
+  padding-top: 6px;
+  width: 100px;
+  border-color: #cfd9e0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+}
+.data2 {
+  padding-top: 6px;
+  width: 80px;
+  border-color: #cfd9e0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+}
+.data3 {
+  padding-top: 6px;
+  width: 100px;
+  border-color: #cfd9e0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+}
+.data4 {
+  padding-top: 6px;
+  width: 130px;
+  border-color: #cfd9e0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+}
+.data5 {
+  padding-top: 6px;
+  width: 100px;
+  border-color: #cfd9e0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+}
+.data6 {
+  padding-top: 6px;
+  width: 150px;
+  border-color: #cfd9e0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+}
+.data7 {
+  padding-top: 6px;
+  width: 50px;
+  background-color: #e8ebed;
+  border-color: #cfd9e0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+}
+.data1:hover,
+.data2:hover,
+.data3:hover,
+.data4:hover,
+.data5:hover,
+.data6:hover {
+  cursor: pointer;
+  background-color: #d9dcde;
+}
+.data7:hover {
+  cursor: pointer;
+  background-color: #c8cccf;
+}
+.first_text {
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.series__img {
+  margin-top: 20px;
+  margin-left: 75px;
+  /* background-color: #158258; */
+  height: 200px;
+  display: flex;
+}
+
+.second__img:hover,
+.series__img:hover,
+.third__img:hover,
+.fourth__img:hover,
+.fifth__img:hover {
+  cursor: pointer;
+}
+
+.series_img1 {
+  width: 307px;
+  height: 176px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/social-media-marketing-agency-design-template_23-2149073416.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 307px 181px;
+  border-radius: 8px;
+}
+
+.series_img2 {
+  width: 307px;
+  height: 176px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/social-media-marketing-agency-design-template_23-2149073395.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 307px 181px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+.series_img3 {
+  width: 307px;
+  height: 176px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/social-media-marketing-agency-design-template_23-2149073396.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 307px 181px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+.series_img4 {
+  width: 203px;
+  height: 176px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/social-media-marketing-agency-design-template_23-2149073400.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 203px 181px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.second_text {
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.second__img {
+  margin-top: 20px;
+  margin-left: 75px;
+  /* background-color: #158258; */
+  height: 200px;
+  display: flex;
+}
+.second_img1 {
+  width: 374px;
+  height: 178px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/flat-design-web-card-cinema-inspired-template_23-2149234068.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 374px 178px;
+  border-radius: 8px;
+}
+.second_img2 {
+  width: 374px;
+  height: 178px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/religious-template-design-web_23-2149197320.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 374px 178px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+.second_img3 {
+  width: 376px;
+  height: 184px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/premium-psd/swimming-landing-page-template_23-2148467074.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 376px 184px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.third_text {
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.third__img {
+  margin-top: 20px;
+  margin-left: 75px;
+  /* background-color: #158258; */
+  height: 200px;
+  display: flex;
+}
+.third_img1 {
+  width: 374px;
+  height: 178px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/online-book-store-web-template_23-2149043265.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 374px 178px;
+  border-radius: 8px;
+}
+.third_img2 {
+  width: 374px;
+  height: 178px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/dia-de-muertos-carnival-homepage-template_23-2149225581.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 374px 178px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+.third_img3 {
+  width: 376px;
+  height: 184px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/neon-type-website-template_23-2149189253.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 376px 184px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.fourth__img {
+  margin-top: 20px;
+  margin-left: 75px;
+  margin-right: 15px;
+  background-color: rgb(223, 230, 235);
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.fourth_img1 {
+  width: 151px;
+  height: 122px;
+  margin-top: 12px;
+  background-image: url(https://t3.ftcdn.net/jpg/02/70/07/38/240_F_270073819_Mny4FYzloFoXA5I1uKwlV8uEJb5doJ31.jpg);
+  background-repeat: no-repeat;
+  background-size: 151px 122px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+.fourth_img2 {
+  width: 151px;
+  height: 122px;
+  margin-top: 12px;
+  background-image: url(https://t4.ftcdn.net/jpg/02/60/51/63/240_F_260516386_qKSZGbpEOJYUeXIYBYGbYYbsiWIpI6Uz.jpg);
+  background-repeat: no-repeat;
+  background-size: 151px 122px;
+  border-radius: 8px;
+}
+.fourth_img3 {
+  width: 151px;
+  height: 122px;
+  margin-top: 12px;
+  background-image: url(https://t3.ftcdn.net/jpg/04/13/52/90/240_F_413529094_Ltyhy4gk7oRlCBERDqTgbVy7Tmyy4oNF.jpg);
+  background-repeat: no-repeat;
+  background-size: 151px 122px;
+  border-radius: 8px;
+}
+.fourth_img4 {
+  width: 151px;
+  height: 122px;
+  margin-top: 12px;
+  background-image: url(https://t3.ftcdn.net/jpg/03/02/41/10/240_F_302411037_M57dUNo5yQftGFERuER8EZMLpihy9EOL.jpg);
+  background-repeat: no-repeat;
+  background-size: 151px 122px;
+  border-radius: 8px;
+}
+.fourth_img5 {
+  width: 151px;
+  height: 122px;
+  margin-top: 12px;
+  background-image: url(https://t4.ftcdn.net/jpg/02/12/07/03/240_F_212070393_oJNSsvIDAOcMY24k0hysqy94iKDEnOdS.jpg);
+  background-repeat: no-repeat;
+  background-size: 151px 122px;
+  border-radius: 8px;
+}
+.fourth_img6 {
+  width: 151px;
+  height: 122px;
+  margin-top: 12px;
+  background-image: url(https://t3.ftcdn.net/jpg/00/80/89/46/240_F_80894643_fk1NShSuQNSaK6EBRBZGIsPDdyd3bbj6.jpg);
+  background-repeat: no-repeat;
+  background-size: 151px 122px;
+  border-radius: 8px;
+}
+.fourth_img7 {
+  width: 151px;
+  height: 122px;
+  margin-top: 12px;
+  background-image: url(https://t3.ftcdn.net/jpg/03/36/56/80/240_F_336568097_zEuJdaHqPjKVTclzyzIhMSWutxYkJ298.jpg);
+  background-repeat: no-repeat;
+  background-size: 151px 122px;
+  border-radius: 8px;
+}
+.fourth_img8 {
+  width: 151px;
+  height: 122px;
+  margin-top: 12px;
+  background-image: url(https://t4.ftcdn.net/jpg/04/55/14/61/240_F_455146184_nNSQKi7B8he6T9DpEyf7zdB8YIM2jvUh.jpg);
+  background-repeat: no-repeat;
+  background-size: 151px 122px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.fifth_text {
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.fifth__img {
+  margin-top: 20px;
+  margin-left: 75px;
+  /* background-color: #158258; */
+  height: 200px;
+  display: flex;
+}
+.fifth_img1 {
+  width: 477px;
+  height: 183px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-photo/halloween-wallpaper-with-cemetery-night_23-2149122579.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 477px 183px;
+  border-radius: 8px;
+}
+.fifth_img2 {
+  width: 301px;
+  height: 183px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-photo/halloween-wallpaper-with-evil-pumpkins_23-2149122584.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 301px 183px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+.fifth_img3 {
+  width: 421px;
+  height: 183px;
+  margin-top: 5px;
+  background-image: url(https://img.freepik.com/free-psd/instagram-posts-collection-white-party_23-2149513300.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 421px 183px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+.footer {
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  font-size: 14px;
+  margin-top: 20px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1d262d;
+  padding: 20px 10px;
+}
+.box {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1 {
+  width: 180px;
+  height: 180px;
+  top: 50px;
+  left: 50px;
+  list-style: none;
+  position: absolute;
+}
+.content-list {
+  list-style: none;
+  color: #6b9fb2;
+}
+.content_link_list {
+  padding-top: 8px;
+}
+.box2 {
+  width: 180px;
+  height: 180px;
+  top: 50px;
+  left: 330px;
+  list-style: none;
+  position: absolute;
+}
+.box3 {
+  width: 180px;
+  height: 180px;
+  top: 50px;
+  left: 610px;
+  list-style: none;
+  position: absolute;
+}
+.box4 {
+  margin-top: 60px;
+}
+.box5 {
+  width: 180px;
+  height: 180px;
+  top: 50px;
+  left: 930px;
+  list-style: none;
+  position: absolute;
+}
+.box6 {
+  margin-top: 60px;
+}
+.box7 {
+  width: 100px;
+  height: 30px;
+  background-color: #1273eb;
+  margin-top: 60px;
+  position: absolute;
+  text-align: center;
+  border-radius: 8px;
+}
+.box7:hover {
+  cursor: pointer;
+  background-color: #2981ec;
+}
+.textbox7 {
+  color: white;
+  margin-top: 5px;
+}
+.content_link_list:hover {
+  cursor: pointer;
+  color: #c8cccf;
+}
+.footer-bottom {
+  width: 100vw;
+  height: 20vh;
+  left: 50px;
+  position: absolute;
+
+  display: flex;
+}
+.footer-bottom__img {
+  width: 200px;
+  height: 47px;
+  background-image: url(https://freepik.cdnpk.net/img/logos/freepikcompany-footer.svg);
+  background-repeat: no-repeat;
+  background-size: 120x 300px;
+  box-sizing: content-box;
+}
+.footer-bottom__text {
+  color: #6b9fb2;
+  margin-top: 10px;
+}
